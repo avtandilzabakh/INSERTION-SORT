@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void sort(int... a) {
-        for (int j = 0; j < a.length; j++) {
+        for (int j = 1; j < a.length; j++) {
             int key = a[j];
             int i = j - 1;
             while (i >= 0 && a[i] > key) {
